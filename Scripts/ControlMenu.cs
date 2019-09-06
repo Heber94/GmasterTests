@@ -9,12 +9,12 @@ public class ControlMenu : MonoBehaviour
         switch (index) {
             case 0:
                 //Comenzar
-                UnityEngine.SceneManagement.SceneManager.LoadScene(1);
+                UnityEngine.SceneManagement.SceneManager.LoadScene(1); //Creating two conflicts
                 break;
             case 1:
                 //Salir
                 Application.Quit();
-                break;//Some more changes.
+                break;
             default:
                 break;
         }
