@@ -14,10 +14,13 @@ public class ControlMenu : MonoBehaviour
             case 1:
                 //Salir
                 Application.Quit();
-                break;
+                break;//Here are conflicts.
             default:
                 break;
         }
     }
 }
 //Testing for zendesk and learning gmaster.
+
+//Here are not.
+//Here are not.
