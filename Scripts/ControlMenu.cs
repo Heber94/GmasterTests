@@ -4,7 +4,7 @@ using UnityEngine.UI;
 
 public class ControlMenu : MonoBehaviour
 {
-    public void MenuButtonClick(int index){
+    public void MenuButtonClick(int index){//This code is from my tfg.
 
         switch (index) {
             case 0:
@@ -14,7 +14,7 @@ public class ControlMenu : MonoBehaviour
             case 1:
                 //Salir
                 Application.Quit();
-                break;
+                break;//Some more changes.
             default:
                 break;
         }
