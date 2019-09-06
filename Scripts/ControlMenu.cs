@@ -9,7 +9,7 @@ public class ControlMenu : MonoBehaviour
         switch (index) {
             case 0:
                 //Comenzar
-                UnityEngine.SceneManagement.SceneManager.LoadScene(1);
+                UnityEngine.SceneManagement.SceneManager.LoadScene(1); //Creating two conflicts
                 break;
             case 1:
                 //Salir
@@ -20,4 +20,4 @@ public class ControlMenu : MonoBehaviour
         }
     }
 }
-//Testing for zendesk and preparing a conflict
+//Testing for zendesk and learning gmaster.
