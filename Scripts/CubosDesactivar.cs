@@ -8,7 +8,6 @@ public class CubosDesactivar : MonoBehaviour
     [SerializeField]
     private VRInteractiveItem m_InteractiveItem;
 
-    //Array donde estarán los cubos a los que se les activarán las propiedades.
     [SerializeField] GameObject[] cubosSeleccion;
 
 
