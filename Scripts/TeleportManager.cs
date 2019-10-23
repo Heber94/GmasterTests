@@ -20,7 +20,7 @@ public class TeleportManager : MonoBehaviour
             location.OnClick += Teleport;
         }
     }
-
+	//More.
     // Se eliminan las posiciones para evitar problemas de memoria.
     void OnDisable(){
         foreach (VRInteractiveItem location in teleportLocations){
