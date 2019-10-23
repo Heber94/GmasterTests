@@ -13,9 +13,6 @@ public class CubosSeleccion : MonoBehaviour
     [SerializeField] GameObject nombreCat;
 
 
-
-
-
     void OnEnable() {
         m_InteractiveItem.OnClick += activar;
         m_InteractiveItem.OnOver += HandleOver;
