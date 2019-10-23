@@ -14,7 +14,7 @@ public class CubosSeleccion : MonoBehaviour
 
 
 
-
+//Comment for kraken tests
 
     void OnEnable() {
         m_InteractiveItem.OnClick += activar;
