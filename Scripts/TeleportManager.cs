@@ -36,5 +36,5 @@ public class TeleportManager : MonoBehaviour
             Debug.Log("DoTeleport event has no subscribers.");
         }
     }
-	//Testing xlink changes on read only
+	//Testing xlink changes on read only. And changed.
 }
