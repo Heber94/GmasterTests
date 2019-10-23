@@ -13,6 +13,9 @@ public class CubosSeleccion : MonoBehaviour
     [SerializeField] GameObject nombreCat;
 
 
+//This is a:
+//Comment for kraken tests
+
     void OnEnable() {
         m_InteractiveItem.OnClick += activar;
         m_InteractiveItem.OnOver += HandleOver;

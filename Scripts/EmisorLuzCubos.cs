@@ -7,7 +7,7 @@ public class EmisorLuzCubos : MonoBehaviour
 {
     [SerializeField] private VRInteractiveItem m_InteractiveItem;
     [SerializeField] GameObject emisor;
-
+//This file didn't have changes before.
 
 
     private void OnEnable()
